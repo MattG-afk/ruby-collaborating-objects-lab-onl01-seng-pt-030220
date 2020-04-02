@@ -32,6 +32,6 @@ class Artist
     self.new(name).tap {|artist| artist.save}
   end
   
-  def print
+  
   
 end
