@@ -32,4 +32,6 @@ class Artist
     self.new(name).tap {|artist| artist.save}
   end
   
-  
+  def print_songs
+    self.songs.each {|song| song.name}
+  end
