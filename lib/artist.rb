@@ -20,17 +20,4 @@ class Artist
     song.artist = self
   end
   
-  def self.find_or_create_by_name(name)
-    name.detect {|artist| artist.name = artist_name}
-      if self.artist.nil?
-      self.artist = Artist.new
-      else
-      self.artist.name = name
-      end
-  end
-    
   
-    
-end
-  
-
